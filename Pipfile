@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+aws-cdk-core="*"
+aws-cdk-aws_ec2="*"
+aws-cdk-aws_ecs="*"
+aws-cdk-aws_ecs_patterns="*"
+aws-cdk-aws-autoscaling-common="*"
+
+[requires]
+python_version = "3.7"
